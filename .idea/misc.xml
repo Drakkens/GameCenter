@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/border.xml" value="0.5" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/border2048.xml" value="0.209" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffeac74e.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffecce73.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffeddfc5.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffede5db.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffeec541.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffefca63.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_fff2b077.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_fff45f3e.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_fff59563.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_fff77d62.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_fffaedb7.xml" value="0.2135" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/color_ffff3d3a.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/d2048.xml" value="0.203" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/drawable.xml" value="0.209" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/empty_peg.xml" value="0.2135" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.203" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/peg.xml" value="0.414" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/peg_drawable.xml" value="0.2025" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/peg_drawable_clicked.xml" value="0.2025" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/splash_drawable.xml" value="0.202" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/drawable/undo.xml" value="0.2245" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/activity_main.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/choose2048.xml" value="0.1" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/choose_peg.xml" value="0.1" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/chooser_item.xml" value="0.4098731884057971" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/diamond_peg.xml" value="0.75" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/english_peg.xml" value="0.6648522550544324" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/fragment_blank.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/french_peg.xml" value="0.531055900621118" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/game_center.xml" value="0.27756653992395436" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/game_center_main.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/game_chooser.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/german_peg.xml" value="0.67" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/item_score.xml" value="0.6074766355140186" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/layout_chooser.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/layout_image.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/main_2048.xml" value="2.0" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/main_peg.xml" value="0.20625" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/peg_chooser.xml" value="0.18" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/peg_layout_chooser.xml" value="0.42391304347826086" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/screen_login.xml" value="0.25" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/screen_register.xml" value="0.22" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/screen_score.xml" value="0.29444444444444445" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/screen_settings.xml" value="0.67" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/single_image_holder.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/layout/splash_screen.xml" value="0.33" />
+        <entry key="..\:/Users/joanf/OneDrive/2n DAM/Desenvolupament dInterficies/Macia/Android Studio/GameCenter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.203" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

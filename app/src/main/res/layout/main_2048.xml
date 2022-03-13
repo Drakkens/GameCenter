@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/undo2048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintHorizontal_bias="0.273"
+            app:layout_constraintVertical_bias="0.966"
+            android:background="@drawable/undo"
+            android:layout_marginBottom="2dp" />
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/tableLayout"
+            android:background="#FF000000">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView0" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView1" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView2" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView3" />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView4" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView5" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView6" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView7" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView8" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView9" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView10" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView11" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView12" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView13" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView14" />
+
+            <com.drakkens.gamecenter.Classes.Games.G2048.TableCell
+                    android:layout_width="@dimen/squareSize"
+                    android:layout_height="@dimen/squareSize"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/color_ffffffff"
+                    android:id="@+id/textView15" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintHorizontal_bias="0.739"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black" />
+
+    <TextView
+            android:text="Score:"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/scoreTextView2"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/scoreTextView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintStart_toEndOf="@+id/timer" />
+
+    <com.drakkens.gamecenter.Classes.Games.Utils.EnhancedChronometer
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/timer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintHorizontal_bias="0.063"
+            app:layout_constraintStart_toEndOf="@+id/undo2048" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="0"
+                        android:id="@+id/usernameText"
+                        android:layout_weight="2"
+                        android:hint="Username"
+                        android:contentDescription="userName"
+                        android:text='' />
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="0"
+                        android:id="@+id/findByTimeText"
+                        android:layout_weight="0.75"
+                        android:hint="Time"
+                        android:contentDescription="time"
+                        android:text='' />
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="0"
+                        android:id="@+id/findByScoreText"
+                        android:layout_weight="1"
+                        android:hint="Score"
+                        android:contentDescription="scoreValue"
+                        android:text=''/>
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="0"
+                        android:id="@+id/findByDateText"
+                        android:layout_weight="0.75"
+                        android:hint="Date"
+                        android:contentDescription="date"
+                        android:text=''/>
+
+                <Button
+                        android:text="ASC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sortButton"
+                        android:layout_weight="0" />
+
+                <Button
+                        android:text="Search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/searchButton"
+                        android:layout_weight="0" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                android:id="@+id/linearLayout2">
+
+                <TextView
+                        android:text="Username"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView16"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                <TextView
+                        android:text="Time (s)"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                <TextView
+                        android:text="Score"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView17"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                <TextView
+                        android:text="Date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView18"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/recyclerView"
+                tools:layout_editor_absoluteX="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintVertical_bias="0.0"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

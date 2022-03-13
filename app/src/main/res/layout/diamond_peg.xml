@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:text="Remaining Pegs:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintStart_toEndOf="@+id/undoButton3"
+            android:layout_marginStart="136dp" />
+
+    <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remainingPegs3"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/gridLayout" />
+
+    <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/undoButton3"
+            android:background="@drawable/undo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.124"
+            app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+            android:layout_marginBottom="12dp" />
+
+    <com.drakkens.gamecenter.Classes.Games.Utils.EnhancedChronometer
+            android:id="@+id/timer3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.912"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/gridLayout" />
+
+    <GridLayout
+            android:columnCount="9"
+            android:rowCount="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/gridLayout">
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton1"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton2"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton3"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton4"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton5" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton6"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton7"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton8"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton9"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton10"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton11"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton12"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton13" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton14" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton15" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton16"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton17"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton18"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton19"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton20"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton21" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton22" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton23"
+                app:isEmpty="false" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton24" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton25" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton26"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton27"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton28"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton29" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton30" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton31" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton32" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton33" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton35" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton34" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton36"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton37" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton38" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton39" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton40" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton43"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton44" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton41" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton45" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton42" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton46"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton47" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton48" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton52" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton51" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton53" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton50" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton49" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton54"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton55"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton56"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton57" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton58" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton59" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton63" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton60" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton61"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton62"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton64"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton66"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton72"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton69" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton71" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton65" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton67"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton68"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton70"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton73"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton74"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton75"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton76"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton77" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton78"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton79"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton80"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+
+        <com.drakkens.gamecenter.Classes.Games.GPegSolitaire.PegButton
+                android:layout_width="@dimen/pegSize"
+                android:layout_height="@dimen/pegSize"
+                android:id="@+id/customButton81"
+                app:isDisabled="true"
+                app:isEmpty="true" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
